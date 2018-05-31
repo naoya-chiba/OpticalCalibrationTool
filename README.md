@@ -4,7 +4,9 @@
 This program is for calibration optical response function between projector and camera.
 The program generates projection patterns and calculates parameters a, b, gamma, and k.
 You can modify your projection pattern's intensities by
+
 > x' = ((kx)^(1/gamma) - b) / a,
+
 where x is your original projection pattern's intensity and x' is modified projection pattern's intensity.
 By using the modified intensities, the projector-camera system optical response function becomes linear.
 
